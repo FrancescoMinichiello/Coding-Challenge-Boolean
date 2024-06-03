@@ -1,0 +1,79 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.contenitore-padre {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 100px 300px;
+}
+
+.contenitore-figlio {
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px;
+}
+
+.logo {
+    width: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    color: limegreen;
+}
+
+.barra-navigazione {
+    background-color: limegreen;
+    padding: 10px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sezione {
+    color: white;
+}
+
+.nome-via {
+    padding: 0;
+}
+
+.barra-arancione {
+    background-color: orange;
+    width: 250px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.barra-verde {
+    background-color: green;
+    width: 350px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.barra-rossa {
+    background-color: red;
+    width: 80px;
+    height: 20px;
+    border-radius: 3px;
+}
